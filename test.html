@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      class User {
+        constructor(name) {
+          // 调用 setter
+          this.name = name
+        }
+
+        get name() {
+          return this._name
+        }
+
+        set name(value) {
+          if (value.length < 4) {
+            alert('Name is too short.')
+            return
+          }
+          this._name = value
+        }
+      }
+
+      let user = new User('John')
+      console.log('user :>> ', user)
+      alert(user.name) // John
+    </script>
+  </body>
+</html>

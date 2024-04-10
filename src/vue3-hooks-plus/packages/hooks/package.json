@@ -1,0 +1,51 @@
+{
+	"name": "vue-hooks-plus",
+	"version": "1.8.9",
+	"description": "Vue hooks library",
+	"files": [
+		"dist",
+		"lib",
+		"es",
+		"LICENSE",
+		"meta-data.json",
+		"package.json",
+		"README.md"
+	],
+	"main": "./lib/index.js",
+	"module": "./es/index.js",
+	"types": "./lib/index.d.ts",
+	"unpkg": "dist/js/index.es.js",
+	"keywords": [
+		"vue-hooks-plus",
+		"vue hooks",
+		"typeScript"
+	],
+	"scripts": {
+		"initial": "initial-scan .docs",
+		"docs:dev": "vhp-vitepress dev .docs --host",
+		"docs:build": "vhp-vitepress build .docs",
+		"docs:build-github": "cross-env BASE_URL=/docs/hooks FLOW=github vhp-vitepress build .docs",
+		"docs:build-gitee": "cross-env BASE_URL=/docs/hooks FLOW=gitee vhp-vitepress build .docs",
+		"docs:serve": "vitepress serve .docs --host",
+		"clean": "rimraf dist lib es types",
+		"build": "npm run clean  && vue-tsc --noEmit && vite build",
+		"build:types": "vue-tsc --noEmit && vite build --mode fullTypes",
+		"type": "tsc -d"
+	},
+	"dependencies": {
+    "@vue/devtools-api": "^6.5.0",
+		"@types/js-cookie": "^3.0.1",
+		"js-cookie": "^3.0.1",
+		"lodash": "^4.17.21",
+		"qs": "^6.11.0",
+		"query-string": "^7.1.1",
+		"screenfull": "^5.0.0"
+	},
+  "peerDependencies": {
+		"vue": "^3.2.25"
+	},
+	"repository": "https://github.com/InhiblabCore/vue-hooks-plus",
+	"homepage": "https://github.com/InhiblabCore/vue-hooks-plus",
+	"author": "NelsonYong",
+	"license": "MIT"
+}

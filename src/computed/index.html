@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>我是标题</title>
+  </head>
+  <body>
+    <div id="demo1"></div>
+    <div id="demo2"></div>
+    <script type="module">
+      import { computed } from './lib/computed.js'
+      import { reactive } from './lib/reactive.js'
+      window.a = reactive({ name: 'a', age: 18 })
+      window.b = computed(() => {
+        console.log('重新计算')
+        return a.age + 10
+      })
+      console.log(window.a)
+      document.getElementById('demo1').innerHTML = JSON.stringify(window.a)
+
+      setTimeout(() => {
+        console.log(window.b.value)
+        document.getElementById('demo2').innerHTML = window.b.value
+      }, 3000)
+    </script>
+  </body>
+</html>

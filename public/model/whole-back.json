@@ -1,0 +1,215 @@
+{
+  "projectid": "彩虹湾养老福利院",
+  "camera": {
+    "x": -1.3723221535088768,
+    "y": 2.0735127162630715,
+    "z": -1.9506735240594948
+  },
+  "container_id": "container",
+  "modelUrlPrefix": "/model/",
+  "devUrlPrefix": "/model/",
+  "roomUrlPrefix": "/model/",
+  "devUrlSuffix": "",
+  "devModelUrlPrefix": "/model/",
+  "wholeDisplayEffect": {
+    "isUnrealBloom": true,
+    "bloomStrength": 0.567,
+    "bloomThreshold": 0.054,
+    "bloomRadius": 1,
+    "sceneColor": "#c2c2c2",
+    "dynamicLineColor": "#e1f8fe",
+    "gridLineColor": "#000000"
+  },
+  "buildings": [
+    {
+      "buildingName": "g1",
+      "showOut": false,
+      "isSandbox": false,
+      "modelUrls": [
+        {
+          "floor": 3,
+          "outUrl": "out_3.gltf",
+          "floorUrl": "floor_3.gltf",
+          "devUrl": "dev_3.json",
+          "roomUrl": "room_3.json"
+        },
+        {
+          "floor": 4,
+          "outUrl": "out_4.gltf",
+          "floorUrl": "floor_4.gltf",
+          "devUrl": "dev_4.json",
+          "roomUrl": "room_4.json"
+        },
+        {
+          "floor": 5,
+          "outUrl": "out_5.gltf",
+          "floorUrl": "floor_5.gltf",
+          "devUrl": "dev_5.json",
+          "roomUrl": "room_5.json"
+        },
+        {
+          "floor": 6,
+          "outUrl": "out_6.gltf",
+          "floorUrl": "floor_6.gltf",
+          "devUrl": "dev_6.json",
+          "roomUrl": "room_6.json"
+        },
+        {
+          "floor": 7,
+          "outUrl": "out_7.gltf",
+          "floorUrl": "floor_7.gltf",
+          "devUrl": "dev_7.json",
+          "roomUrl": "room_7.json"
+        },
+        {
+          "floor": 8,
+          "outUrl": "out_8.gltf",
+          "floorUrl": "floor_8.gltf",
+          "devUrl": "dev_8.json",
+          "roomUrl": "room_8.json"
+        },
+        {
+          "floor": 9,
+          "outUrl": "out_9.gltf",
+          "floorUrl": "floor_9.gltf",
+          "devUrl": "dev_9.json",
+          "roomUrl": "room_9.json"
+        },
+        {
+          "floor": 10,
+          "outUrl": "out_10.gltf",
+          "floorUrl": "floor_10.gltf",
+          "devUrl": "dev_10.json",
+          "roomUrl": "room_10.json"
+        },
+        {
+          "floor": 11,
+          "outUrl": "out_11.gltf",
+          "floorUrl": "floor_11.gltf",
+          "devUrl": "dev_11.json",
+          "roomUrl": "room_11.json"
+        },
+        {
+          "floor": 12,
+          "outUrl": "out_12.gltf",
+          "floorUrl": "floor_12.gltf",
+          "devUrl": "dev_12.json",
+          "roomUrl": "room_12.json"
+        },
+        {
+          "floor": 13,
+          "outUrl": "out_13.gltf",
+          "floorUrl": "floor_13.gltf",
+          "devUrl": "dev_13.json",
+          "roomUrl": "room_13.json"
+        },
+        {
+          "floor": 14,
+          "outUrl": "out_14.gltf",
+          "floorUrl": "floor_14.gltf",
+          "devUrl": "dev_14.json",
+          "roomUrl": "room_14.json"
+        },
+        {
+          "floor": 15,
+          "outUrl": "out_15.gltf",
+          "floorUrl": "floor_15.gltf",
+          "devUrl": "dev_15.json",
+          "roomUrl": "room_15.json"
+        },
+        {
+          "floor": 16,
+          "outUrl": "out_16.gltf",
+          "floorUrl": "floor_16.gltf",
+          "devUrl": "dev_16.json",
+          "roomUrl": "room_16.json"
+        },
+        {
+          "floor": 17,
+          "outUrl": "out_17.gltf",
+          "floorUrl": "floor_17.gltf",
+          "devUrl": "dev_17.json",
+          "roomUrl": "room_17.json"
+        },
+        {
+          "floor": 1,
+          "outUrl": "out_1.gltf",
+          "floorUrl": "floor_1.gltf",
+          "devUrl": "dev_1.json",
+          "roomUrl": "room_1.json"
+        },
+        {
+          "floor": -1,
+          "outUrl": "out_-1.gltf",
+          "floorUrl": "floor_-1.gltf",
+          "devUrl": "dev_-1.json",
+          "roomUrl": "room_-1.json"
+        },
+        {
+          "floor": 2,
+          "outUrl": "out_2.gltf",
+          "floorUrl": "floor_2.gltf",
+          "devUrl": "dev_2.json",
+          "roomUrl": "room_2.json"
+        }
+      ],
+      "buildingFloorCamerPosition":      {
+          "x": 0.044455579200967425,
+              "y": 1.9676985586187048,
+            "z": -0.9212338069453018
+         },
+      "buildingCamerPosition": {
+        "x": -1.3723221535088768,
+        "y": 2.0735127162630715,
+        "z": -1.9506735240594948
+      },
+
+
+
+
+      "buildingSet": {
+        "px": -9000,
+        "py": -2800,
+        "pz": 29888,
+        "scale": 1,
+        "rx": 0,
+        "ry": 0,
+        "rz": 0
+      },
+      "displayEffect": {
+        "solidLine": true,
+        "solidLineColor": "#cce0ff",
+        "solidMesh": true,
+        "solidMeshColor": "#131720",
+        "solidMeshOpacity": 1,
+        "doorLine": true,
+        "doorLineColor": "#75aaff",
+        "doorPlane": true,
+        "doorPlaneColor": "#006eff",
+        "doorPlaneOpacity": 0.975,
+        "windowsLine": false,
+        "windowsLineColor": "#75aaff",
+        "windowsPlane": true,
+        "windowsPlaneColor": "#00296b",
+        "windowsPlaneOpacity": 0.865,
+        "roomMesh": false,
+        "roomMeshColor": "#268686",
+        "roomMeshOpacity": 0.226,
+        "safeexitMesh": true,
+        "safeexitMeshColor": "#00ff00",
+        "safeexitMeshOpacity": 0.8,
+        "groundMesh": true,
+        "groundMeshColor": "#023469",
+        "groundMeshOpacity": 0.828,
+        "effectBuildingAA": true,
+        "effectFloorAA": true,
+        "renderOrder": 0
+      }
+    }
+  ],
+
+  "textures": {
+    "ground": "/model/textures/fly_grounp.jpg"
+  },
+  "account": "rayeye"
+}

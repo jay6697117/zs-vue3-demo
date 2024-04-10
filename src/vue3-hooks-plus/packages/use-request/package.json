@@ -1,0 +1,28 @@
+{
+  "name": "@vue-hooks-plus/use-request",
+  "version": "1.6.2",
+  "description": "Vue use-request hooks library",
+	"files": [
+		"dist",
+		"LICENSE",
+		"package.json",
+		"README.md"
+	],
+  "main": "./dist/useRequest.cjs.js",
+	"module": "./dist/useRequest.es.js",
+  "types":"./dist/types/index.d.ts" ,
+  "scripts": {
+    "sync":"rimraf src & tsx scripts/sync.ts",
+    "build": "npm run clean && vite build",
+    "clean": "rimraf dist"
+  },
+  "keywords": [],
+  "dependencies": {
+    "@vue/devtools-api": "^6.5.0",
+    "lodash": "^4.17.21"
+  },
+  "repository": "https://github.com/InhiblabCore/vue-hooks-plus",
+	"homepage": "https://github.com/InhiblabCore/vue-hooks-plus",
+	"author": "NelsonYong",
+	"license": "MIT"
+}
