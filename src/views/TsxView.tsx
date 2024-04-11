@@ -53,6 +53,7 @@ const renderDom = () => {
 
       <>
         <TsxComp title="标题" arr={arr.value} />
+        <h1>我是测试</h1>
       </>
     </div>
   )
