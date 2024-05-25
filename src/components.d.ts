@@ -8,7 +8,6 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     CardComp: typeof import('./components/CardComp.vue')['default']
-    DynamicComp: typeof import('./components/DynamicComp.vue')['default']
     DynamicComp1: typeof import('./components/Dynamic/DynamicComp1.vue')['default']
     DynamicComp2: typeof import('./components/Dynamic/DynamicComp2.vue')['default']
     DynamicComp3: typeof import('./components/Dynamic/DynamicComp3.vue')['default']
