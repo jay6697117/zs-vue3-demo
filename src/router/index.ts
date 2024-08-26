@@ -16,7 +16,8 @@ const router = createRouter({
       // redirect: '/slot'
       // redirect: '/keepAlive'
       // redirect: '/hooks'
-      redirect: '/tsx'
+      // redirect: '/tsx'
+      redirect: '/async'
     },
     {
       path: '/home',
@@ -72,6 +73,11 @@ const router = createRouter({
       path: '/tsx',
       name: 'tsx',
       component: () => import('@/views/TsxView.tsx')
+    },
+    {
+      path: '/async',
+      name: 'async',
+      component: () => import('@/views/AsyncView.vue')
     }
   ]
 })

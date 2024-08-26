@@ -7,6 +7,7 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    AsyncComponent: typeof import('./components/AsyncComponent.vue')['default']
     CardComp: typeof import('./components/CardComp.vue')['default']
     DynamicComp1: typeof import('./components/Dynamic/DynamicComp1.vue')['default']
     DynamicComp2: typeof import('./components/Dynamic/DynamicComp2.vue')['default']
